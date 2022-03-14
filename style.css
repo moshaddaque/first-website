@@ -1,32 +1,109 @@
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 img{
     max-width: 100%;
 }
+section{
+    height: 500px;
+}
 .first-sec{
     background-image: url(./images/top-banner.png);
     background-size: cover;
-    background-position: center;
+    
     background-repeat: no-repeat;
 }
-h1{
-    size: 70px;
-    line-height: 30px;
+p{
+    color: dimgray;
 }
-.name-color{
+h1{
+    font-size: 45px;
+    line-height: 85px;
+    margin-top: 20px;
+}
+.purple-color{
     color: purple;
 }
 .half-width h1{
     margin-top: 50px;
     margin-bottom: 20px;
+    line-height: 60px;
+}
+.link-btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightSalmon, purple);
+    line-height: 65px;
+    transition: .4s;
+}
+.link-btn:hover{
+    background-image: linear-gradient(200deg, lightSalmon, purple);
+    transition: .4s;
 }
 .half-width{
     width: 40%;
     float: left;
     margin: 0% 5%;
 }
-.halh-width img{
-    width: 70%;
-    height: auto;
+.half-width img{
+    margin-top: 20px;
+    text-align: right;
+}
+
+
+.second-sec{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    margin: 20px auto;
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h2{
+    margin-left: 64px;
+    margin-bottom: 30px;
+
+}
+.exp{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 67%;
+    padding: 10px;
+    width: 37%;
+    background-color: #fff;
+}
+.exp h2{
+    margin-left: 0px;
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+.exp h4{
+    margin: 5px 0px;
+}
+.exp p{
+    text-align: justify;
+    padding: 10px 0px;
+}
+#left-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato) ;
+    border-image-slice: 1;
+}
+#right-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    padding: 20px auto;
+    font-size: 12px;
 }
